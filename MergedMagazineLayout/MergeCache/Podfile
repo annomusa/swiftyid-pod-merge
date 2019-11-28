@@ -1,0 +1,29 @@
+require 'json'
+platform :ios, '12.0'
+install! 'cocoapods', :lock_pod_sources => false
+target 'Dummy' do
+  pod 'Charts', '3.2.1'
+  pod 'DeepDiff', '1.4.0'
+  pod 'IQKeyboardManagerSwift', '6.2.1'
+  pod 'lottie-ios', '2.5.2'
+  pod 'MagazineLayout'
+  pod 'Framezilla'
+end
+
+  post_install do |context|
+    FileUtils.mkdir('Podspecs')
+    context.aggregate_targets[0].specs.each do |spec|
+      podspec = File.new("Podspecs/#{spec.name.gsub("/", "_")}.json", 'w')
+          podspec.puts(spec.attributes_hash.to_json)
+          podspec.close
+    end
+    context.aggregate_targets[0].target_definition.dependencies.each do |dependency|
+      if dependency.external?
+        if dependency.external_source.key?(:path)
+          path = dependency.external_source[:path]
+          Pod::UI.puts "Creating a copy of external source for merging: #{dependency.name}".yellow
+          FileUtils.copy_entry path, "Pods/#{dependency.name}"
+        end
+      end
+    end
+  end

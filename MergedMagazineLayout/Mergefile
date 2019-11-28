@@ -1,0 +1,37 @@
+group 'UISwift'
+  swift_version! '4.2'
+
+  pod 'Charts', '3.2.1'
+  pod 'DeepDiff', '1.4.0'
+  pod 'IQKeyboardManagerSwift', '6.2.1'
+  pod 'lottie-ios', '2.5.2'
+  pod 'MagazineLayout'
+  pod 'Framezilla'
+end
+
+group 'UtilSwift'
+  swift_version! '4.2'
+
+  pod 'CocoaLumberjack', '3.4.2'
+  pod 'KeychainSwift', '10.0.0'
+  pod 'RNCryptor', '5.0.3'
+  pod 'SQLite.swift', '~> 0.12.0'
+  pod 'DeviceGuru', '4.0.0'
+end
+
+group 'NetworkingSwift'
+  swift_version! '4.2'
+
+  pod 'Alamofire', '4.7.1'
+
+  has_dependencies!
+  pod 'SwiftPhoenixClient', '~> 1.0.0'
+  pod 'Starscream', '3.0.6'
+end
+
+group 'UtilObjc'
+  swift_version! '4.2'
+
+  pod 'Adjust', '4.17.1'
+  pod 'Shimmer'
+end

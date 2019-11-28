@@ -1,0 +1,17 @@
+${PODS_ROOT}/Target Support Files/Pods-MagazineLayoutExample/Pods-MagazineLayoutExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/DeepDiff/DeepDiff.framework
+${BUILT_PRODUCTS_DIR}/DeviceGuru/DeviceGuru.framework
+${BUILT_PRODUCTS_DIR}/Framezilla/Framezilla.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework
+${BUILT_PRODUCTS_DIR}/MagazineLayout/MagazineLayout.framework
+${BUILT_PRODUCTS_DIR}/RNCryptor/RNCryptor.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
+${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
+${BUILT_PRODUCTS_DIR}/SwiftPhoenixClient/SwiftPhoenixClient.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

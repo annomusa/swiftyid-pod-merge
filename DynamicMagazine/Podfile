@@ -1,0 +1,44 @@
+platform :ios, '12.0'
+
+use_frameworks!
+inhibit_all_warnings!
+
+workspace 'MagazineLayoutExample'
+
+target 'MagazineLayoutExample' do
+  pod 'Charts', '3.2.1'
+  pod 'DeepDiff', '1.4.0'
+  pod 'IQKeyboardManagerSwift', '6.2.1'
+  pod 'lottie-ios', '2.5.2'
+  pod 'MagazineLayout'
+  pod 'Framezilla'
+  pod 'Alamofire', '4.7.1'
+  pod 'SwiftPhoenixClient', '~> 1.0.0'
+  pod 'Starscream', '3.0.6'
+  pod 'CocoaLumberjack', '3.4.2'
+  pod 'KeychainSwift', '10.0.0'
+  pod 'RNCryptor', '5.0.3'
+  pod 'SQLite.swift', '~> 0.12.0'
+  pod 'DeviceGuru', '4.0.0'
+  pod 'Adjust', '4.17.1'
+  pod 'Shimmer'
+end
+
+target 'Core' do
+  project 'Core/Core.xcodeproj'
+
+  pod 'DeviceGuru', '4.0.0'
+end
+
+target 'Domain' do
+  project 'Domain/Domain.xcodeproj'
+
+  pod 'Alamofire', '4.7.1'
+  pod 'ObjectMapper', '3.4.2'
+end
+
+pre_install do |installer|
+  installer.analysis_result.specifications.each do |specs|
+    specs.swift_version = '4.2'
+  end
+end

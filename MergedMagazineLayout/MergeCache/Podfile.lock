@@ -1,0 +1,38 @@
+PODS:
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - DeepDiff (1.4.0)
+  - Framezilla (2.9.1)
+  - IQKeyboardManagerSwift (6.2.1)
+  - lottie-ios (2.5.2)
+  - MagazineLayout (1.5.2)
+
+DEPENDENCIES:
+  - Charts (= 3.2.1)
+  - DeepDiff (= 1.4.0)
+  - Framezilla
+  - IQKeyboardManagerSwift (= 6.2.1)
+  - lottie-ios (= 2.5.2)
+  - MagazineLayout
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - DeepDiff
+    - Framezilla
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - MagazineLayout
+
+SPEC CHECKSUMS:
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
+  DeepDiff: c4dea751ace912310e0668ec3b2e5ebf06831c0d
+  Framezilla: 47d52b1986bddf580da55ba77189ef654ebdc731
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  MagazineLayout: 237f5950a22108f3fec22a766829d5924597da4d
+
+PODFILE CHECKSUM: b1317b880c003446212df0f85c04ba41d23ab176
+
+COCOAPODS: 1.8.4

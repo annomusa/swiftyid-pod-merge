@@ -1,0 +1,25 @@
+platform :ios, '12.0'
+use_frameworks!
+
+plugin 'cocoapods-pod-merge'
+
+workspace 'MergedMagazineLayout'
+
+target 'MergedMagazineLayout' do
+  pod 'UISwift', path: 'MergedPods/UISwift'
+  pod 'NetworkingSwift', path: 'MergedPods/NetworkingSwift'
+  pod 'UtilSwift', path: 'MergedPods/UtilSwift'
+  pod 'UtilObjc', path: 'MergedPods/UtilObjc'
+end
+
+target 'Core' do
+  project 'Core/Core.xcodeproj'
+
+  pod 'UtilSwift', path: 'MergedPods/UtilSwift'
+end
+
+target 'Domain' do
+  project 'Domain/Domain.xcodeproj'
+
+  pod 'NetworkingSwift', path: 'MergedPods/NetworkingSwift'
+end

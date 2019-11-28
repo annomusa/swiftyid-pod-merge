@@ -1,0 +1,45 @@
+framework module UtilObjc {
+
+	explicit module Adjust {
+		header "ADJConfig.h"
+		header "Adjust.h"
+		header "ADJActivityPackage.h"
+		header "ADJSystemProfile.h"
+		header "ADJAttribution.h"
+		header "ADJActivityKind.h"
+		header "ADJPackageHandler.h"
+		header "ADJPackageBuilder.h"
+		header "ADJResponseData.h"
+		header "ADJAdjustFactory.h"
+		header "ADJUtil.h"
+		header "ADJReachability.h"
+		header "ADJActivityHandler.h"
+		header "ADJUserDefaults.h"
+		header "ADJAttributionHandler.h"
+		header "ADJTimerOnce.h"
+		header "ADJDeviceInfo.h"
+		header "ADJEvent.h"
+		header "ADJSdkClickHandler.h"
+		header "ADJKeychain.h"
+		header "UIDevice+ADJAdditions.h"
+		header "NSData+ADJAdditions.h"
+		header "NSString+ADJAdditions.h"
+		header "ADJRequestHandler.h"
+		header "ADJSessionFailure.h"
+		header "ADJActivityState.h"
+		header "ADJEventSuccess.h"
+		header "ADJEventFailure.h"
+		header "ADJSessionSuccess.h"
+		header "ADJBackoffStrategy.h"
+		header "ADJLogger.h"
+		header "ADJSessionParameters.h"
+		header "ADJTimerCycle.h"
+	}
+
+	explicit module Shimmer {
+		header "FBShimmering.h"
+		header "FBShimmeringLayer.h"
+		header "FBShimmeringView.h"
+	}
+
+}

@@ -1,0 +1,31 @@
+PODS:
+  - NetworkingSwift (1.0.0)
+  - UISwift (1.0.0)
+  - UtilObjc (1.0.0)
+  - UtilSwift (1.0.0)
+
+DEPENDENCIES:
+  - NetworkingSwift (from `MergedPods/NetworkingSwift`)
+  - UISwift (from `MergedPods/UISwift`)
+  - UtilObjc (from `MergedPods/UtilObjc`)
+  - UtilSwift (from `MergedPods/UtilSwift`)
+
+EXTERNAL SOURCES:
+  NetworkingSwift:
+    :path: MergedPods/NetworkingSwift
+  UISwift:
+    :path: MergedPods/UISwift
+  UtilObjc:
+    :path: MergedPods/UtilObjc
+  UtilSwift:
+    :path: MergedPods/UtilSwift
+
+SPEC CHECKSUMS:
+  NetworkingSwift: 5b5ead93ce978f25d555b59e88d0702e734f932f
+  UISwift: 0dbc8d91484fa087be6bad040d79c34c73c1ffa4
+  UtilObjc: 688b253997cc72b09afbd9b0187c9eb3932e2672
+  UtilSwift: fe3f3ecf847869e58fb9af6aea2f37526f4b4c91
+
+PODFILE CHECKSUM: 1cb2b4d43c3453760d68541943149e25225e3aa1
+
+COCOAPODS: 1.8.4

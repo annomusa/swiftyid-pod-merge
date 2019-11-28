@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-MergedMagazineLayout/Pods-MergedMagazineLayout-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NetworkingSwift/NetworkingSwift.framework
+${BUILT_PRODUCTS_DIR}/UISwift/UISwift.framework
+${BUILT_PRODUCTS_DIR}/UtilObjc/UtilObjc.framework
+${BUILT_PRODUCTS_DIR}/UtilSwift/UtilSwift.framework

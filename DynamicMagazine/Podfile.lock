@@ -1,0 +1,92 @@
+PODS:
+  - Adjust (4.17.1):
+    - Adjust/Core (= 4.17.1)
+  - Adjust/Core (4.17.1)
+  - Alamofire (4.7.1)
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - DeepDiff (1.4.0)
+  - DeviceGuru (4.0.0)
+  - Framezilla (2.9.1)
+  - IQKeyboardManagerSwift (6.2.1)
+  - KeychainSwift (10.0.0)
+  - lottie-ios (2.5.2)
+  - MagazineLayout (1.5.2)
+  - ObjectMapper (3.4.2)
+  - RNCryptor (5.0.3)
+  - Shimmer (1.0.2)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.0.6)
+  - SwiftPhoenixClient (1.0.1):
+    - Starscream (~> 3.0.6)
+
+DEPENDENCIES:
+  - Adjust (= 4.17.1)
+  - Alamofire (= 4.7.1)
+  - Charts (= 3.2.1)
+  - CocoaLumberjack (= 3.4.2)
+  - DeepDiff (= 1.4.0)
+  - DeviceGuru (= 4.0.0)
+  - Framezilla
+  - IQKeyboardManagerSwift (= 6.2.1)
+  - KeychainSwift (= 10.0.0)
+  - lottie-ios (= 2.5.2)
+  - MagazineLayout
+  - ObjectMapper (= 3.4.2)
+  - RNCryptor (= 5.0.3)
+  - Shimmer
+  - SQLite.swift (~> 0.12.0)
+  - Starscream (= 3.0.6)
+  - SwiftPhoenixClient (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - Alamofire
+    - Charts
+    - CocoaLumberjack
+    - DeepDiff
+    - DeviceGuru
+    - Framezilla
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - lottie-ios
+    - MagazineLayout
+    - ObjectMapper
+    - RNCryptor
+    - Shimmer
+    - SQLite.swift
+    - Starscream
+    - SwiftPhoenixClient
+
+SPEC CHECKSUMS:
+  Adjust: b1f2b0e0b426fa991d69ed7fc9de806cf6dff5a6
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  DeepDiff: c4dea751ace912310e0668ec3b2e5ebf06831c0d
+  DeviceGuru: ad93600b4ce895a48ae2931e32513b5673f69707
+  Framezilla: 47d52b1986bddf580da55ba77189ef654ebdc731
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  KeychainSwift: f9f7910449a0c0fd2cabc889121530dd2c477c33
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  MagazineLayout: 237f5950a22108f3fec22a766829d5924597da4d
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  RNCryptor: c93d19029dcf7ff160aca0f24d6c9e7b0d82f664
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftPhoenixClient: 5a6691aed7dd79ccf00ac2e0717d7e644c9ac76f
+
+PODFILE CHECKSUM: 7dfd229deab4083f8cb5ebf96f9a582d1595b4b7
+
+COCOAPODS: 1.8.4

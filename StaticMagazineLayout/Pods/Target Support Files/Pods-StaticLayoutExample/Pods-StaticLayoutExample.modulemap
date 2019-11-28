@@ -1,0 +1,6 @@
+module Pods_StaticLayoutExample {
+  umbrella header "Pods-StaticLayoutExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

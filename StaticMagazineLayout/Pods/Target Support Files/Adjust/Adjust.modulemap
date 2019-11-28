@@ -1,0 +1,6 @@
+module Adjust {
+  umbrella header "Adjust-umbrella.h"
+
+  export *
+  module * { export * }
+}
